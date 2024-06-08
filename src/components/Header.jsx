@@ -22,10 +22,10 @@ const Header = () => {
     <header className="container mx-auto px-4 pt-8 md:max-w-xl">
       <div className="flex justify-between">
         <h1
-          className="text-3xl font-bold uppercase tracking-[0.3em]
+          className="text-3xl font-bold tracking-[0.3em]
         text-white"
         >
-          TO-DO
+          TO-DO's
         </h1>
         <button onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? <IconSun /> : <IconMoon />}
